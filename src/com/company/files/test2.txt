@@ -1,0 +1,9 @@
+float a =  1.0;
+switch (a)
+    case(0): a++; break;
+    case(1): a--; break;
+
+if (a <= 2 && a >= 0) {
+    a++;
+    .$~
+}

@@ -1,0 +1,6 @@
+int a[10];
+int i = 0;
+do {
+    a[i] = 10;
+    i++;
+} while(i < 10)

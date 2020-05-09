@@ -26,7 +26,9 @@ public class Tag {
         if (tag == REAL) {
             return "浮点数";
         }
-        if (tag == '{' || tag == '}' || tag == '(' || tag == ')') {
+        if (tag == '{' || tag == '}' ||
+            tag == '(' || tag == ')' ||
+            tag == '[' || tag == ']') {
             return "分隔符";
         }
         return "ERROR";
