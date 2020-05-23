@@ -12,7 +12,7 @@ public class Tag {
 
     public static String code(int tag) {
         if (tag >= AND && tag <= PE) {
-            return "操作符";
+            return "运算符";
         }
         if (tag >= BASIC && tag <= TRUE) {
             return "基本保留字";
